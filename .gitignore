@@ -1,0 +1,22 @@
+# secrets
+.env
+*.key
+# environnements et caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+# données et index générés
+data/raw/*.pdf
+data/processed/*
+!data/processed/.gitkeep
+*.faiss
+*.index
+# outils locaux
+.claude/
+CLAUDE.md
+# divers
+.DS_Store
+Thumbs.db
