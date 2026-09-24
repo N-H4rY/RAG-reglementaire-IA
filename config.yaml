@@ -1,0 +1,9 @@
+seed: 42
+
+paths:
+  raw: data/raw
+  processed: data/processed
+
+ingestion:
+  scanned_min_chars_per_page: 100   # sous ce seuil moyen, PDF suspecté scanné
+  header_footer_min_ratio: 0.5      # ligne présente sur >50 % des pages = en-tête/pied de page
